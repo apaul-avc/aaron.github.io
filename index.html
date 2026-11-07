@@ -10,6 +10,17 @@
       border-radius: 999px;
       text-decoration: none;
     }
+    .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
   </style>
 
 </head>
@@ -41,6 +52,27 @@
     Contact:
     <a href="mailto:apaul4@students.avc.edu">apaul4@students.avc.edu</a>
   </p>
+<section>
+    <h2>TEST CARD SECTION</h2>
 
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Education</h3>
+            <p>Student at Antelope Valley College.</p>
+        </div>
+
+        <div class="card">
+            <h3>Skills</h3>
+            <p>HTML, GitHub, VS Code, and technology.</p>
+        </div>
+
+        <div class="card">
+            <h3>Interests</h3>
+            <p>Gaming, anime, computers, and learning new skills.</p>
+        </div>
+
+    </div>
+</section>
 </body>
 </html>
